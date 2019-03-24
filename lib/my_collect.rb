@@ -3,7 +3,7 @@ def my_collect(collection)
   new = []
   while i < array.count
   new << yield(collection[c])
-  i += 1
+  c += 1
 end
   new
 end
